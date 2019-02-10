@@ -41,9 +41,9 @@ end
 
 def bulk_tweet_shortener(array_of_tweets)
   i = 0
-  
+
   while i < array_of_tweets.length
-    word_substituter(array_of_tweets[i])
+    puts word_substituter(array_of_tweets[i])
     i += 1
   end
 
